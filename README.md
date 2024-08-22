@@ -1,4 +1,4 @@
-**Project Overvie**
+**Project Overview**
 This project involves the development of a Generative AI-powered chatbot capable of answering questions related to information found on Apexon.com. The chatbot is designed to provide users with accurate and contextually relevant responses by utilizing state-of-the-art generative AI models. This project will culminate in a demonstration to Apexon leadership on September 15, 2024.
 
 **Objectives**
