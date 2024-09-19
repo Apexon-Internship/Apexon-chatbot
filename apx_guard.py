@@ -8,7 +8,7 @@ import openai
 import os
 
 # Set API key
-os.environ['OPENAI_API_KEY'] = 'sk-None-dvpc3JgnrJeJTsYUkTs9T3BlbkFJaLbQpougGlLcVMLDtRrI'  # Replace with your actual API key
+os.environ['OPENAI_API_KEY'] = ''  # Replace with your actual API key
 
 # Load CSV data
 data = pd.read_csv('urls_and_chunks.csv')
