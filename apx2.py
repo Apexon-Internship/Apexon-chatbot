@@ -8,7 +8,7 @@ import openai
 import os
 
 # Set API key
-os.environ['OPENAI_API_KEY'] = 'sk-None-dvpc3JgnrJeJTsYUkTs9T3BlbkFJaLbQpougGlLcVMLDtRrI'  # Replace with your actual API key
+os.environ['OPENAI_API_KEY'] = ''  # Replace with your actual API key
 
 # Setup embedding model
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
