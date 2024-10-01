@@ -43,7 +43,7 @@ cd <repository-directory>
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-
+```
 **2. Install Dependencies Create a requirements.txt file in your project directory with the following contents:**
 
 ```bash
@@ -57,32 +57,34 @@ numpy
 requests
 beautifulsoup4  # If web scraping is involved
 Install the required libraries using pip:
-
+```
 ```bash
 
 pip install -r requirements.txt
-Running the Applications
+```
+**3. Running the Applications**
 The project consists of three main Streamlit applications:
 
-apx_ingestion.py
+**apx_ingestion.py**
 
 Handles data ingestion from Apexon.com.
 Command to run:
-bash
 
+```bash
 streamlit run apx_ingestion.py
+```
 
-apx_chunking.py
+**apx_chunking.py**
 
 Processes and chunks data stored in CSV format.
 Command to run:
-bash
-Copy code
+```bash
 streamlit run apx_chunking.py
-apx2.py
+```
+**apx2.py**
 
 Implements the chatbot interface that interacts with users.
 Command to run:
-bash
-Copy code
+```bash
 streamlit run apx2.py
+```
