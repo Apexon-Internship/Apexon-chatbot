@@ -45,17 +45,6 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 **2. Install Dependencies Create a requirements.txt file in your project directory with the following contents:**
-
-```bash
-
-streamlit
-openai
-langchain
-chromadb
-pandas
-numpy
-requests
-beautifulsoup4  # If web scraping is involved
 Install the required libraries using pip:
 ```
 ```bash
