@@ -1,4 +1,8 @@
 streamlit
 openai
+langchain
+chromadb
 pandas
-beautiful
+numpy
+requests
+beautifulsoup4  
