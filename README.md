@@ -32,3 +32,57 @@ This project involves the development of a Generative AI-powered chatbot capable
 
 **Contributing**
 Contributions are welcome from the team! Please fork the repository and submit a pull request.
+Installation Instructions
+Follow these steps to set up the project environment and install all necessary dependencies:
+
+**1. Clone the Repository**
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+
+**2. Install Dependencies Create a requirements.txt file in your project directory with the following contents:**
+
+```bash
+
+streamlit
+openai
+langchain
+chromadb
+pandas
+numpy
+requests
+beautifulsoup4  # If web scraping is involved
+Install the required libraries using pip:
+
+```bash
+
+pip install -r requirements.txt
+Running the Applications
+The project consists of three main Streamlit applications:
+
+apx_ingestion.py
+
+Handles data ingestion from Apexon.com.
+Command to run:
+bash
+
+streamlit run apx_ingestion.py
+
+apx_chunking.py
+
+Processes and chunks data stored in CSV format.
+Command to run:
+bash
+Copy code
+streamlit run apx_chunking.py
+apx2.py
+
+Implements the chatbot interface that interacts with users.
+Command to run:
+bash
+Copy code
+streamlit run apx2.py
