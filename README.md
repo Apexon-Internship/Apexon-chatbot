@@ -19,6 +19,8 @@ This project involves the development of a Generative AI-powered chatbot capable
 - **Guardrails**: Implements guardrails to ensure the chatbot does not provide irrelevant or inappropriate responses.
 - **Fallback Mechanism**: Adds a fallback system to handle queries that the chatbot cannot answer.
 - **Streamlit Interface**: Provides a user-friendly interface for interaction via Streamlit.
+  <img width="1069" alt="Screenshot 2025-05-14 at 1 16 28 PM" src="https://github.com/user-attachments/assets/a287518c-f6f9-401f-be39-52e0258459f5" />
+
 
 **Demo Presentation**
 - The demo is presented to Apexon leadership on September 15, 2024.
