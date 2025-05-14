@@ -21,7 +21,7 @@ This project involves the development of a Generative AI-powered chatbot capable
 - **Streamlit Interface**: Provides a user-friendly interface for interaction via Streamlit.
 
 **Demo Presentation**
-- The demo will be presented to Apexon leadership on September 15, 2024.
+- The demo is presented to Apexon leadership on September 15, 2024.
 - A slide deck and live demonstration will showcase the chatbot's functionalities.
 - Be prepared to discuss the development process, including challenges, solutions, and potential future enhancements.
 
